@@ -1,0 +1,8 @@
+train: WSODD USV_dataset/WSODD USV_dataset/image/train/
+test: WSODD USV_dataset/WSODD USV_dataset/image/val/
+val:  WSODD USV_dataset/WSODD USV_dataset/image/test/
+
+nc: 14
+
+names: ['bridge', 'ship', 'boat', 'ball', 'rubbish', 'rock', 'buoy', 'platform', 'harbor', 'mast', 'tree', 'animal',
+        'grass', 'person']
